@@ -23,7 +23,7 @@ void PrintArray(int[] numbers)
     Console.WriteLine();
 }
 
-Console.WriteLine("Input size array: ");
+Console.Write("Input size array: ");
 int size = Convert.ToInt32(Console.ReadLine());
 int[] numbers = new int[size];
 FillArray(numbers);
